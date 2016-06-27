@@ -7,7 +7,7 @@ Based on the official PHP images, this adds a few testing tools:
 * [phploc][3]
 * [phpmd][4]
 * [pdepend][5]
-* [phpcs][6]
+* [phpcs][6] including [Symfony2-coding-standard][8]
 
 and [composer][7].
 
@@ -20,3 +20,4 @@ It is intended to be used with CI tools to test PHP projects.
 [5]: https://phpunit.de/
 [6]: https://github.com/squizlabs/PHP_CodeSniffer
 [7]: https://getcomposer.org/
+[8]: https://github.com/djoos/Symfony2-coding-standard
