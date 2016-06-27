@@ -31,3 +31,7 @@ RUN chmod +x /usr/local/bin/phpunit && \
     chmod +x /usr/local/bin/phpmd && \
     chmod +x /usr/local/bin/pdepend && \
     chmod +x /usr/local/bin/phpcs
+
+RUN mkdir /phpcs && git clone \
+    git://github.com/escapestudios/Symfony2-coding-standard.git \
+    /phpcs/symfony2 && phpcs --config-set installed_paths /phpcs/symfony2
